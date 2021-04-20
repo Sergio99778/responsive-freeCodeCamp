@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="header--title">
+            <h1>Hello avocados :)</h1>
+            <img src="https://pngimg.com/uploads/avocado/avocado_PNG15489.png" alt="Avocado image">
+        </div>
+        <div class="form__container">
+            <h1 id="title" class="title">Form</h1>
+        <p id="description" class="description">A little form for get knowledge about avocados :)</p>
+        <form action="" id="survey-form">
+            <div class="form-group">
+                <label class="column-forms" id="name-label" for="name">
+                    <p>Name</p>
+                    <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                />
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="column-forms" id="email-label" for="email">
+                    <p>Email</p>
+                    <input 
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                    required
+                    >
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="column-forms" id="number-label" for="number" >
+                    <p>How much avocados does you eat every day?</p>
+                    <input 
+                    type="number"
+                    name="number"
+                    id="number"
+                    class="form-control"
+                    placeholder="Enter a number"
+                    required
+                    min="0"
+                    max="100"
+                    >
+                </label>
+            </div>
+            <div class="form-group">
+                <select name="role" class="form-control" id="dropdown" required>
+                    <option disabled selected value=>
+                        Select favorite avocado....
+                    </option>
+                    <option value="Blue avocado">
+                        Blue avocado
+                    </option>
+                    <option value="Dark avocado">
+                        Dark avocado
+                    </option>
+                    <option value="Yellow avocado">
+                        Yellow avocado
+                    </option>
+                    <option value="Purple avocado">
+                        Purple avocado
+                    </option>
+                    <option value="None">
+                        None
+                    </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Wich day of the week would you like to eat avocados?</p>
+                <label>
+                    <input class="input-radio" type="radio" name="day-selected" value="Monday">Monday
+                </label>
+                <label>
+                    <input class="input-radio" type="radio" name="day-selected" value="Tuesday">Tuesday
+                </label>
+                <label>
+                    <input class="input-radio" type="radio" name="day-selected" value="Wednesday">Wednesday
+                </label>
+                <label>
+                    <input class="input-radio" type="radio" name="day-selected" value="Thursday">Thursday
+                </label>
+                <label>
+                    <input class="input-radio" type="radio" name="day-selected" value="Friday">Friday
+                </label>
+                <label>
+                    <input class="input-radio" type="radio" name="day-selected" value="Saturday">Saturday
+                </label>
+                <label>
+                    <input class="input-radio" type="radio" name="day-selected" value="Sunday">Sunday
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Where would you like to buy avocados?</p>
+                <label>
+                    <input name="shop" type="checkbox" value="Aurrera" class="input-checkbox">
+                    Aurrera
+                </label>
+                <label>
+                    <input name="shop" type="checkbox" value="Walmart" class="input-checkbox">
+                    Walmart
+                </label>
+                <label>
+                    <input name="shop" type="checkbox" value="Amazon" class="input-checkbox">
+                    Amazon
+                </label>
+                <label>
+                    <input name="shop" type="checkbox" value="Mercado Libre" class="input-checkbox">
+                    Mercado Libre
+                </label>
+                <label>
+                    <input name="shop" type="checkbox" value="Everywhere" class="input-checkbox">
+                    Everywhere
+                </label>
+            </div>
+            <div class="form-group">
+                <p>COMMENTS :) ? </p>
+                <textarea name="comments" id="comments" placeholder="Here you can enter your comments :3 ...." class="input-textarea"></textarea>
+            </div>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <p>Patrocinated by avocado hero</p>
+    </footer>
+</body>
+</html>
