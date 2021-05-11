@@ -1,1 +1,0 @@
-const playButton = document.querySelector("#play-pause");
