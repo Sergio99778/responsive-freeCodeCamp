@@ -1,25 +1,30 @@
 {
-  "name": "responsive-freecodecamp",
-  "version": "1.0.0",
-  "description": "All the responsive freeCodeCamp proyects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sergio99778/responsive-freeCodeCamp.git"
-  },
-  "keywords": [
-    "freeCodeCamp"
-  ],
-  "author": "Sergio99778",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Sergio99778/responsive-freeCodeCamp/issues"
-  },
-  "homepage": "https://github.com/Sergio99778/responsive-freeCodeCamp#readme",
-  "devDependencies": {
-    "parcel": "^2.0.0-beta.2"
-  }
+    "name": "responsive-freecodecamp",
+    "version": "1.0.0",
+    "description": "All the responsive freeCodeCamp proyects",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "parcel ./Build-a-Product-Landing-Page/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sergio99778/responsive-freeCodeCamp.git"
+    },
+    "keywords": [
+        "freeCodeCamp"
+    ],
+    "author": "Sergio99778",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Sergio99778/responsive-freeCodeCamp/issues"
+    },
+    "homepage": "https://github.com/Sergio99778/responsive-freeCodeCamp#readme",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5",
+        "typescript": "^4.2.4"
+    },
+    "browserslist": [
+        "last 1 Chrome version"
+    ]
 }
