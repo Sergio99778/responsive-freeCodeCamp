@@ -5,34 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
+    <!--CSS-->
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./assets/favicon/apple.ico" type="image/x-icon">
 </head>
 <body>
     <header id="header" class="header">
-        <img src="https://thumbnail.imgbin.com/0/22/1/imgbin-tor-onion-onion-routing-web-browser-internet-onion-5PDTs63bCzxu0TawKQYaqWdW8_t.jpg" alt="" id="header-img">
+        <div class="header-logo">
+            <a href="#">
+                <img src="./assets/img/klipartz.com.png" alt="" id="header-img">
+                <span>Apple Store</span>
+            </a>
+        </div>
         <nav id="nav-bar" class="nav-bar">
-            <a href="#" id="nav-link">Description</a>
-            <a href="#" id="nav-link">Images</a>
-            <a href="#" id="nav-link">Prices</a>
+            <a href="#" id="nav-link" class="header--hover-underline-animation">About</a>
+            <a href="#" id="nav-link" class="header--hover-underline-animation">Products</a>
+            <a href="#" id="nav-link" class="header--hover-underline-animation">Prices</a>
         </nav>
     </header>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UpolBSznWp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div class="buttons-container">
-        <button id="play-pause">play/pause</button>
-        <button id="muted-unmuted">muted/unmuted</button>
+    <div class="media-container">
+        <video src="./assets/video/iPhone 12 _ Mmmmm, purple _ Apple.mp4" id="video" controls muted autoplay loop></video>
     </div>
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <div class="form-group">
-            <label for="">
-                <p>email</p>
-                <input type="email" placeholder="Enter your email">
-            </label>
-        </div>
-        <div class="form-group">
-            <label for="">
-                <button type="submit" id="submit">Submit</button>
-            </label>
-        </div>
-    </form>
+    <div class="buttons-container">
+        <button class="big-button" id="play-pause">play/pause</button>
+        <button class="big-button" id="muted-unmuted">muted/unmuted</button>
+    </div>
+    <div class="form-container">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <div class="form-group">
+                <label for="">
+                    <p class="title">Contact with us</p>
+                    <input type="email" placeholder="Enter your email">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="">
+                    <button type="submit" id="submit">Submit</button>
+                </label>
+            </div>
+        </form>
+    </div>
 </body>
+<script src="./index.js"></script>
 </html>
