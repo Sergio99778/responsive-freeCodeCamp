@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap");
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+}
+
+main {
+  margin-left: 28%;
+  width: 80%;
+  padding: 3rem;
+}
+
+.navbar {
+  font-size: 2.2rem;
+  width: 20%;
+  display: block;
+  padding: 3rem;
+  height: 100%;
+  background-color: rgb(197, 233, 235);
+  opacity: 0.9;
+  position: fixed;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.navbar a {
+  border-radius: 3px;
+  margin-top: 1rem;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+  background-color: rgb(168, 218, 219);
+  margin-left: 0.5rem;
+}
+
+.navbar a:hover::before {
+  content: "*";
+}
+
+header {
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+.main-section {
+  font-family: "Baloo Tammudu 2", cursive;
+  margin-bottom: 3rem;
+}
+
+.main-section header {
+  padding-left: 3px;
+  border-left: 4px solid #04a5aa;
+}
+
+.main-section p {
+  font-size: 2.2rem;
+}
+
+.ul-tools {
+  font-size: 2rem;
+}
+
+.ul-tools li {
+  margin-top: 3px;
+}
+
+.main-section code {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  line-height: 38px;
+  font-size: 1.6rem;
+}
